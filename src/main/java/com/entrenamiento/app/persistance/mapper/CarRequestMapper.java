@@ -15,7 +15,7 @@ public interface CarRequestMapper {
 	CarRequest toCarRequest(CarEntity carEntity);
 
 	@InheritInverseConfiguration
-	CarEntity tCarEntity(CarRequest carRequest);
+	CarEntity toCarEntity(CarRequest carRequest);
 	
 	List<CarEntity> toListCarEntity(List<CarRequest> carRequests);
 }

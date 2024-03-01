@@ -22,7 +22,6 @@ public interface CarResponseMapper {
 	 * source: objeto de origen 
 	 * target: objeto de destino
 	 * */
-
 	CarResponse toCarResponse(CarEntity carEntity);
 	
 	@InheritInverseConfiguration
